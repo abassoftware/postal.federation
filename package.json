@@ -1,7 +1,7 @@
 {
   "name": "postal.federation",
   "description": "A base plugin for federating instances of postal.js across various boundaries.",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "homepage": "http://github.com/postaljs/postal.federation",
   "repository": {
     "type": "git",
@@ -49,6 +49,7 @@
   "devDependencies": {
     "babel": "5.x",
     "babel-loader": "~4.0.0",
+    "babel-polyfill": "^6.26.0",
     "eslint": "^1.3.1",
     "expect.js": "~0.2.0",
     "express": "~3.4.7",
@@ -69,7 +70,7 @@
     "karma-spec-reporter": "0.0.20",
     "mocha": "^2.3.0",
     "open": "~0.0.4",
-    "postal.xframe": "~0.3.0",
+    "postal.xframe": "https://github.com/abassoftware/postal.xframe.git#v0.5.1",
     "webpack": "^1.12.1",
     "webpack-stream": "^2.1.0"
   },
